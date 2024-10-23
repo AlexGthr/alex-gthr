@@ -20,7 +20,8 @@ body {
 /* TYPOGRAPHY */
 /* ------------------- */
 
-.headline-1 {
+.headline-1,
+.headline-2 {
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #15b838, #a1a1aa);
   -webkit-background-clip: text;
@@ -29,6 +30,10 @@ body {
 
 .headline-1 {
   @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
+}
+
+.headline-2 {
+  @apply text-4xl lg:text-4xl lg:leading-tight font-semibold
 }
 
 /* ------------------- */
@@ -108,7 +113,7 @@ body {
 }
 
 .btn-primary {
-  @apply h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400
+  @apply h-11 bg-green-600/90 text-zinc-950 hover:bg-emerald-400 active:bg-emerald-600
 }
 
 .btn-outline {
