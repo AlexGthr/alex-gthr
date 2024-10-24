@@ -1,8 +1,9 @@
 import React from 'react'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import About from './components/About'
-import Skill from './components/Skill'
+import Header from './sectionComponents/Header'
+import Hero from './sectionComponents/Hero'
+import About from './sectionComponents/About'
+import Skill from './sectionComponents/Skill'
+import Work from './sectionComponents/Work'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Hero />
         <About />
         <Skill />
+        <Work />
       </main>
     </>
   )

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import SkillCard from '../components/SkillCard'
+
 
 const skillItem = [
     {
@@ -46,7 +48,7 @@ const skillItem = [
 
 const Skill = () => {
   return (
-    <section className="section">
+    <section id='skill' className="section">
         <div className="container">
 
             <h2 className="headline-2">
@@ -58,10 +60,15 @@ const Skill = () => {
             high-performing websites & applications.
             </p>
 
-            <div className="">
+            <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
                 {
                     skillItem.map(({ imgSrc, label, desc}, key) => (
-                        'SkillCard'
+                        <SkillCard 
+                          key={key}
+                          imgSrc={imgSrc}
+                          label={label}
+                          desc={desc}
+                        />
                     ))
                 }
             </div>
