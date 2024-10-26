@@ -4,39 +4,39 @@ import ProjectCard from '../components/ProjectCard';
 const works = [
     {
       imgSrc: '/images/project-1.jpg',
-      title: 'Full stack music app',
-      tags: ['API', 'MVC', 'Development'],
-      projectLink: 'https://musify-5al0.onrender.com/'
+      title: 'Project number 1',
+      tags: ['HTML5', 'PHP', 'Symfony'],
+      projectLink: 'https://github.com/AlexGthr'
     },
     {
-      imgSrc: '/images/project-2.jpg',
-      title: 'Free stock photo app',
-      tags: ['API', 'SPA'],
-      projectLink: 'https://pixstock-official.vercel.app/'
+      imgSrc: '/images/project-1.jpg',
+      title: 'Project number 2',
+      tags: ['HTML5', 'PHP', 'Symfony'],
+      projectLink: 'https://github.com/AlexGthr'
     },
     {
-      imgSrc: '/images/project-3.jpg',
-      title: 'Recipe app',
-      tags: ['Development', 'API'],
-      projectLink: ''
+      imgSrc: '/images/project-1.jpg',
+      title: 'Project number 3',
+      tags: ['HTML5', 'PHP', 'Symfony'],
+      projectLink: 'https://github.com/AlexGthr'
     },
     {
-      imgSrc: '/images/project-4.jpg',
-      title: 'Real state website',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee-org/wealthome'
+      imgSrc: '/images/project-1.jpg',
+      title: 'Project number 4',
+      tags: ['HTML5', 'PHP', 'Symfony'],
+      projectLink: 'https://github.com/AlexGthr'
     },
     {
-      imgSrc: '/images/project-5.jpg',
-      title: 'eCommerce website',
-      tags: ['eCommerce', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+      imgSrc: '/images/project-1.jpg',
+      title: 'Project number 5',
+      tags: ['HTML5', 'PHP', 'Symfony'],
+      projectLink: 'https://github.com/AlexGthr'
     },
     {
-      imgSrc: '/images/project-6.jpg',
-      title: 'vCard Personal portfolio',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+      imgSrc: '/images/project-1.jpg',
+      title: 'Project number 6',
+      tags: ['HTML5', 'PHP', 'Symfony'],
+      projectLink: 'https://github.com/AlexGthr'
     },
   ];
 
@@ -49,9 +49,15 @@ const Work = () => {
                 My portfolio highlights
             </h2>
 
-            <div className="">
+            <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
                 {works.map(({ imgSrc, title, tags, projectLink }, key) => (
-                    <ProjectCard />
+                    <ProjectCard
+                        key={key}
+                        imgSrc={imgSrc}
+                        title={title}
+                        tags={tags}
+                        projectLink={projectLink}
+                    />
                 ))}
             </div>
         </div>
