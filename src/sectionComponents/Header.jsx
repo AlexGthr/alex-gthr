@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { useState } from 'react'
+import GithubIcon from '../icons/GithubIcon'
+import LinkedinIcon from '../icons/LinkedinIcon'
 
 const Header = () => {
 
@@ -23,7 +25,20 @@ const Header = () => {
                 <Navbar navOpen={navOpen} />
             </div>
 
-            <a href="#contact" className='btn btn-secondary max-md:hidden md:justify-self-end'>Contact me</a>
+            <div href="#contact" className='flex gap-3 max-md:hidden md:justify-self-end'>
+                <a href="https://github.com/AlexGthr" target='_blank'>
+                    <GithubIcon 
+                        color='#fff'
+                        size={24}
+                    />
+                </a>
+                <a href="https://www.linkedin.com/in/alexandre-gauthier-1639922b0/" target='_blank'>
+                    <LinkedinIcon 
+                        color='#fff'
+                        size={24}
+                    />
+                </a>
+            </div>
         </div>
     </header>
   )

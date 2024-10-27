@@ -12,7 +12,7 @@ const Hero = () => {
 
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="/images/avatar-1.jpg"
+                src="/images/avatar.jpg"
                 width={40}
                 height={40}
                 alt="Henry clark portrait"
@@ -24,13 +24,13 @@ const Hero = () => {
                 <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
               </span>
 
-              Available for work
+              Open to work
             </div>
 
           </div>
 
-          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Building Scalable and Performant Web Applications
+          <h2 className="headline-1 max-w-[20ch] sm:max-w-[30ch] lg:max-w-[20ch] mt-5 mb-8 lg:mb-10">
+          Créer des applications web évolutives et performantes
           </h2>
 
           <div className="flex items-center gap-3">
@@ -48,12 +48,12 @@ const Hero = () => {
         </div>
 
         <div className="hidden lg:block">
-          <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-40/40 to-65% rounded-[60px] overflow-hidden">
+          <figure className="w-full max-w-[400px] ml-auto rounded-full ring ring-zinc-700 overflow-hidden">
             <img
-              src="/images/hero-banner.png"
-              width={656}
-              height={800}
-              alt="Henry clark"
+              src="/images/hero_banner.png"
+              width={400}
+              height={400}
+              alt="Alex Gauthier"
               className='w-full'
             />
           </figure>
