@@ -10,36 +10,29 @@ const works = [
       projectLink: 'https://github.com/AlexGthr'
     },
     {
-      imgSrc: '/images/project-2.png',
+      imgSrc: '/images/Session.png',
       title: 'Dashboard admin',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
       tags: ['HTML5', 'PHP', 'Symfony'],
       projectLink: 'https://github.com/AlexGthr'
     },
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Project number 3',
+      imgSrc: '/images/Forum.png',
+      title: 'Site Forum',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
       tags: ['HTML5', 'PHP', 'Symfony'],
       projectLink: 'https://github.com/AlexGthr'
     },
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Project number 4',
+      imgSrc: '/images/Cinema.png',
+      title: 'Movies - Cinema',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
       tags: ['HTML5', 'PHP', 'Symfony'],
       projectLink: 'https://github.com/AlexGthr'
     },
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Project number 5',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
-      tags: ['HTML5', 'PHP', 'Symfony'],
-      projectLink: 'https://github.com/AlexGthr'
-    },
-    {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Project number 6',
+      imgSrc: '/images/beergarden.png',
+      title: 'Beergarden',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
       tags: ['HTML5', 'PHP', 'Symfony'],
       projectLink: 'https://github.com/AlexGthr'
