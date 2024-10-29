@@ -37,7 +37,7 @@ const Navbar = ({ navOpen }) => {
             ref: lastActiveLink
         },
         {
-            label: 'About',
+            label: 'A propos',
             link: '#about',
             className: 'nav-link'
         },
@@ -47,7 +47,7 @@ const Navbar = ({ navOpen }) => {
             className: 'nav-link'
         },
         {
-            label: 'Work',
+            label: 'Projets',
             link: '#work',
             className: 'nav-link'
         },

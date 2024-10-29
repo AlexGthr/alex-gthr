@@ -7,19 +7,19 @@ const sitemap = [
     href: '#home'
   },
   {
-    label: 'About',
+    label: 'A propos',
     href: '#about'
   },
   {
-    label: 'Work',
+    label: 'Skill',
+    href: '#about'
+  },
+  {
+    label: 'Projets',
     href: '#work'
   },
   {
-    label: 'Reviews',
-    href: '#reviews'
-  },
-  {
-    label: 'Contact me',
+    label: 'Contact',
     href: '#contact'
   }
 ];
@@ -27,23 +27,11 @@ const sitemap = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://www.github.com/codewithsadee-org'
+    href: 'https://github.com/AlexGthr'
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/codewithsadee'
-  },
-  {
-    label: 'Twitter X',
-    href: 'https://x.com/codewithsadee_'
-  },
-  {
-    label: 'Instagram',
-    href: 'https://www.instagram.com/codewithsadee'
-  },
-  {
-    label: 'CodePen',
-    href: 'https://codepen.io/codewithsadee'
+    href: 'https://www.linkedin.com/in/alexandre-gauthier-1639922b0/'
   }
 ];
 
@@ -54,8 +42,8 @@ const Footer = () => {
 
         <div className="lg:grid lg:grid-cols-2">
           <div className="mb-10">
-            <h2 className="headline-1 mb-8 lg:max-w-[12ch]">
-              Let's work together today !
+            <h2 className="headline-2 mb-8 lg:max-w-[12ch]">
+              Commençons à travailler ensemble dès aujourd'hui !
             </h2>
 
             <ButtonPrimary 
