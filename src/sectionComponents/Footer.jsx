@@ -83,7 +83,7 @@ const Footer = () => {
         <div className="flex items-center justify-center pt-10 mb-4">
 
           <p className="text-zinc-500 text-sm">
-            &copy; 2024 <a href="https://www.youtube.com/watch?v=k3JMkRwd_Nw" className='hover:text-zinc-200'>codewithsadee</a> 
+            &copy; 2024 <span className='hover:text-zinc-200'>Alex Gauthier</span> 
           </p>
         </div>
         
