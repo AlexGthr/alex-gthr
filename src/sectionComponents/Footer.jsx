@@ -40,47 +40,7 @@ const Footer = () => {
     <footer className="section">
       <div className="container">
 
-        <div className="lg:grid lg:grid-cols-2">
-          <div className="mb-10">
-            <h2 className="headline-2 mb-8 lg:max-w-[12ch]">
-              Commençons à travailler ensemble dès aujourd'hui !
-            </h2>
-
-            <ButtonPrimary 
-              label="Start project" 
-              href="mailto:agauthier5@outlook.fr" 
-              icon="chevron_right"
-            />
-          </div>
-
-          <div className="grid grid-cols-2 gap-4 lg:pl-20">
-            <div>
-              <p className="mb-2">Sitemap</p>
-
-              <ul>
-                {sitemap.map(({label, href}, key) => (
-                  <li key={key}>
-                    <a href={href} className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200'>{label}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <p className="mb-2">Socials</p>
-
-              <ul>
-                {socials.map(({label, href}, key) => (
-                  <li key={key}>
-                    <a href={href} target='_blank' className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200'>{label}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex items-center justify-center pt-10 mb-4">
+        <div className="flex items-center justify-center mb-4">
 
           <p className="text-zinc-500 text-sm">
             &copy; 2024 <span className='hover:text-zinc-200'>Alex Gauthier</span> 

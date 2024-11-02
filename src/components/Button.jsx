@@ -7,11 +7,12 @@ const ButtonPrimary = ({
     label,
     icon,
     className,
+    download,
 }) => {
-  if (href) {
+  if (href || download) {
     return (
         <a 
-            href={href}
+            href={download ? download : href}
             target={target}
             className={`btn btn-primary ${className}`}
         >
@@ -93,6 +94,7 @@ ButtonOutline.propTypes = {
     target: PropTypes.string,
     icon: PropTypes.string,
     className: PropTypes.string,
+    download: PropTypes.string,
 }
 
 export {

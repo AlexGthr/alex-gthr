@@ -37,6 +37,7 @@ const Hero = () => {
             <ButtonPrimary
               label="Download CV"
               icon="download"
+              download="..\cv\CV_2024_ALEXANDRE_GAUTHIER.pdf"
             />
 
             <ButtonOutline
