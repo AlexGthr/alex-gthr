@@ -3,7 +3,7 @@ import ProjectCard from '../components/ProjectCard';
 
 const works = [
     {
-      imgSrc: '/images/project-1.jpg',
+      imgSrc: '/images/NessPrimeurs.png',
       title: 'Project number 1',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
       tags: ['HTML5', 'PHP', 'Symfony'],
